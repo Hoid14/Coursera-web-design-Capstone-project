@@ -14,11 +14,11 @@ This is a repository for the Portfolio Project (designed from scratch) of [Web D
 
 **Sketches**
 
-**for screen**
+* **for screen**
 
 ![screen](./img/sketch.jpeg)
 
-**for mobile**
+* **for mobile**
 
 ![screen](./img/sketch%20movil.jpeg)
 
@@ -28,4 +28,4 @@ w3 validator compliant
 
 **Portfolio Demo**
 
-**you can visit the Portfolio [here](https://renarin14.github.io/Coursera-web-design-Capstone-project/)
+you can visit the Portfolio [here](https://renarin14.github.io/Coursera-web-design-Capstone-project/)
