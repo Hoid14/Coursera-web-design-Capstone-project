@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>ExpertD.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&amp;display=swap" rel="stylesheet">
+    <!--google fonts-->
+  </head>
+  <body>
+
+    <!--========================================================== -->
+                        <!-- HEADER -->
+  <!--========================================================== -->
+  <header class="bg-primary d-flex flex-column align-items-center" id="header-presentation">
+    <div class="photo-div"><img src="img/image1.png" alt="profile-picture" class="photo"></div>
+    <p class="text-light text-center mb-0 p-2">Hi, i'm <span>Sergio</span></p>
+    <p class="text-light text-center mb-0 p-2">I like cats</p>
+
+</header>  
+  <nav class="navbar navbar-dark bg-dark p-3 fixed-top" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span class="text-primary fs-5 fw-bold">This is my web page</span>
+            </a>
+       
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+    <div class="collapse navbar-collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <ul class="navbar-nav me-auto mb-2 mb-1g-0">
+
+
+            <li class="nav-item">
+                <a class="nav-link active" href="#header-presentation">Start</a> 
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#carouselExample">"Cool" carousel</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#validation">Validation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#local">About me</a>
+            </li>
+            
+        </ul>
+      </div>
+    </div>
+</nav>
+
+
+
+    <!--========================================================== -->
+                        <!--HEADER AND NAVIGATION BAR-->
+    <!--========================================================== -->
+    <section class="w-50 mx-auto text-center pt-5" id="intro"><!--w:width mx:auto margin horizontal(centrado) text-cente:centra el texto-->
+        <h1 class="p-3 fs-2 border-top border-3 text-primary">Kittens</h1>
+        
+    </section>
+
+    <div id="carouselExample" class="carousel slide">
+        <!--aqui estan contenidas las imagenes-->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000"><!--data-bs-interval: entre mas alto el valor mas lento cambia la imagen-->
+            <img src="./img/cat1.jpg" class="d-block w-100" alt="slide1">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/cat2.jpg" class="d-block w-100" alt="slide2">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/cat3.jpg" class="d-block w-100" alt="slide3">
+          </div>
+        </div>
+        <!--aqui estan los botones del carrousel-->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><!--asegurarse que data-bs-target: tenga el mismo id(corouselExample) para que los controles funcionen-->
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+     
+
+    <!--========================================================== -->
+                        <!--WRAP IMAGES-->
+    <!--========================================================== -->
+
+    <section class="container-fluid">
+        <div class=" d-flex justify-content-center servicio-fila">
+            <div class="d-flex flex-column my-5 mx-5 icono-wrap">
+                <img src="./img/image1.png" alt="desarrollo" width=200 height=200>
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 text-center">Lorem ipsum</h3>
+                </div>
+            </div>
+            <div class="d-flex flex-column my-5 mx-5 icono-wrap">
+                <img src="./img/image1.png" alt="desarrollo" width=200 height=200>
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 text-center">Lorem ipsum</h3>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!--========================================================== -->
+                        <!--VALIDATION IMAGE-->
+    <!--========================================================== -->
+
+    
+    <section id="validation">
+        <div class="w-75 m-auto text-center" id="equipo">
+            <h1 class="mb-5 fs-2 text-primary">Validation</h1>
+            
+        </div>
+        <div class="mt-5 text-center">
+            <img class="img-fluid" src="./img/validation.png" alt="validation">
+        </div>
+    </section>
+
+    <div id="local" class="border-top border-2">
+        
+            <div class="wrapper">
+                <h2>I'm from colombia</h2>
+                <h2 class="text-primary mb-4" id="typewriter">example text</h2>
+                
+                <button id="saludoBtn" class="rounded p-2">Hello!!</button>
+                <div id="gifContainer"></div>
+            </div>
+    </div>
+    
+<!--========================================================== -->
+                        <!--ABOUT ME-->
+    <!--========================================================== -->
+<footer>
+    <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #1b2a4e;"></path></svg></div>    
+    <div id="seccion-contacto" class="d-flex justify-content-center align-items-center">
+        <div class="rounded bg-white p-5 d-flex flex-column justify-content-center align-items-center">
+            <h2 class="text-black titulo">Contact me</h2>   
+            <div class="d-flex" id="numeros-local">
+                <div>
+                    <p class="text-primary text-center fs-5">E-mail</p>
+                    <p>s-andres140@hotmail.com</p>
+                </div>
+            </div>
+        </div>
+        
+    </div> 
+</footer>
+    
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Monserrat&display=swap");
+
+body{
+    font-family: "Monserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+
+.photo-div {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .photo-div .photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+
+#header-presentation{
+    padding: 200px;
+
+    font-size: 4vw;
+    font-weight: 700;
+    font-family: "Gugi", cursive;
+    
+}
+#header-presentation p span {
+    color: #351a31;
+    font-weight: 700;
+}
+
+
+#menu li > a{
+    font-size:18px;
+    font-weight:bold;
+    color: #fff;
+}
+
+#menu form > button{
+    font-size:18px;
+    font-weight:bold;
+}
+
+
+
+
+
+.carousel-inner{
+    max-height: 39rem;/*pone un limite en el alto del contenerdor con esta clase*/
+} 
+
+
+
+.servicio-fila{
+    flex-wrap: wrap;
+}
+
+
+
+
+#local{
+    background: #f3f3f3;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.wrapper{
+    width:50%;
+    margin-left:100px;
+    padding-top:150px;
+}
+
+#saludoBtn{
+    font-family: "Gugi", cursive;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+#numeros-local div{
+    padding: 0 20px 0 0;
+    height:48px;
+
+}
+
+#numeros-local p {
+    font-family: "Gugi", cursive;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+
+.titulo{
+    font-family: "Gugi", cursive;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#seccion-contacto{
+    background-color: #1b2a4e;
+    height: 300px;
+    
+}
+
+.wave{
+    background-color: #f3f3f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
