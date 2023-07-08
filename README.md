@@ -2,8 +2,10 @@
 
 This is a repository for the Portfolio Project (designed from scratch) of [Web Design For Everybody Specialization on Coursera (University of Michigan)](https://www.coursera.org/specializations/web-design).
 
-**Web site**
+**Website**
+
 you can visit the Portfolio [here](https://renarin14.github.io/Coursera-web-design-Capstone-project/)
+
 
 **Build With:**
 * HTML5
@@ -21,13 +23,13 @@ you can visit the Portfolio [here](https://renarin14.github.io/Coursera-web-desi
 
 ![screen](./img/sketch%20movil.jpeg)
 
-w3 validator compliant
+**w3 validator compliant**
 
 ![validation](./img/validation.png)
 
 **Portfolio Demo**
 
-![validation](./img/demo.gif)
+![screen demo](./img/demo.gif)
 
 
-![validation](./img/demo-movil.gif)
+![mobile demo](./img/demo-movil.gif)
