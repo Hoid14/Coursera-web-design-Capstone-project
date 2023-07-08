@@ -11,7 +11,7 @@ body{
     text-align: center;
   }
   
-  .photo-div .photo {
+.photo-div .photo {
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -43,6 +43,9 @@ body{
 }
 
 
+#intro h1{
+    font-family: "Gugi", cursive;
+}
 
 
 
@@ -58,7 +61,9 @@ body{
 
 
 
-
+.icono-wrap h3{
+    font-family: "Gugi", cursive;
+}
 #local{
     background: #f3f3f3;
     padding-bottom: 50px;
@@ -69,6 +74,9 @@ body{
     width:50%;
     margin-left:100px;
     padding-top:150px;
+}
+.wrapper h2{
+    font-family: "Gugi", cursive;
 }
 
 #saludoBtn{
@@ -92,7 +100,9 @@ body{
     text-transform: uppercase;
 }
 
-
+#equipo h1{
+    font-family: "Gugi", cursive;
+}
 
 .titulo{
     font-family: "Gugi", cursive;
