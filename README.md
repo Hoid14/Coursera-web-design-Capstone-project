@@ -27,7 +27,7 @@ w3 validator compliant
 
 **Portfolio Demo**
 
-![validation](./img/demo.mp4)
+![validation](./img/demo.gif)
 
 
-![validation](./img/demo%20movil.mp4)
+![validation](./img/demo-movil.gif)
